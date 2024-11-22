@@ -1,0 +1,391 @@
+h1 {
+  font-size: 30px; /* Устанавливает размер шрифта заголовка h1 */
+  max-width: 500px; /* Ограничивает максимальную ширину элемента до 500px */
+  text-align: center; /* Выравнивает текст заголовка по центру */
+  font-family: "Soledago"; /* Использует шрифт "Soledago" для текста */
+}
+
+section {
+  height: 100vh; /* Высота секции занимает 100% высоты экрана */
+  display: flex; /* Устанавливает flexbox для секции */
+  flex-direction: column; /* Располагает элементы по вертикали */
+  justify-content: center; /* Центрирует элементы по вертикали */
+  align-items: center; /* Центрирует элементы по горизонтали */
+  text-align: center; /* Центрирует текст внутри секции */
+}
+
+#firstsect {
+  background: url("../images/red.png") center center no-repeat  fixed;
+  background-size: cover;
+}
+
+#twosect {
+  /* Фоновое изображение для второго сектора */
+  background: url("https://assets.onecompiler.app/42ss6b9ew/42su26dg9/purple.png") center center no-repeat  fixed;
+  background-size: cover;
+}
+
+#threesect {
+  background-image: url('https://assets.onecompiler.app/42ss6b9ew/42su26dg9/blue.png');
+  /* Фоновое изображение для третьего сектора */
+}
+
+#foursect {
+  background-image: url('https://assets.onecompiler.app/42ss6b9ew/42su26dg9/green.png');
+  /* Фоновое изображение для четвертого сектора */
+}
+
+#fivesect {
+  background-image: url('https://assets.onecompiler.app/42ss6b9ew/42su26dg9/black.png');
+  /* Фоновое изображение для пятого сектора */
+}
+
+.textfirst {
+  color: #F7FCFF; /* Белый цвет текста для элементов с классом textfirst */
+}
+
+.redtxt {
+  visibility: hidden;
+
+
+  transition: ease-in 0.2s;
+  color: blue;
+  stroke: #000000;
+}
+
+.textfirst:hover .redtxt {
+  
+  visibility: visible;
+  transform: scale(1.4);
+  transition: 0.6s;
+  stroke: #000000;
+}
+
+.purpletxt {
+  visibility: hidden;
+  color: blue;
+
+  transition: ease-in 0.2s;
+}
+
+.twotext:hover .purpletxt {
+  
+  visibility: visible;
+  transform: scale(1.4);
+  transition: 0.6s;
+}
+
+.bluetxt {
+  visibility: hidden;
+  color: blue;
+
+  transition: ease-in 0.2s;
+}
+
+.threetext:hover .bluetxt {
+  
+  visibility: visible;
+  transform: scale(1.4);
+  transition: 0.6s;
+}
+
+.greentxt {
+  visibility: hidden;
+  color: blue;
+
+  transition: ease-in 0.2s;
+}
+
+.fourtext:hover .greentxt {
+  
+  visibility: visible;
+  transform: scale(1.4);
+  transition: 0.6s;
+}
+
+.blacktxt {
+  visibility: hidden;
+  color: blue;
+
+  transition: ease-in 0.2s;
+}
+
+.fivetext:hover .blacktxt {
+  
+  visibility: visible;
+  transform: scale(1.4);
+  transition: 0.6s;
+}
+.twotext {
+  color: #000000; /* Черный цвет текста для элементов с классом twotext */
+}
+
+.threetext {
+  color: #C4E9EC; /* Голубоватый цвет текста для элементов с классом threetext */
+}
+
+.fourtext {
+  color: #F3D0B3; /* Бежевый цвет текста для элементов с классом fourtext */
+}
+
+.fivetext {
+  color: #FF885B; /* Оранжевый цвет текста для элементов с классом fivetext */
+}
+
+.finaltext {
+  font-family: "Soledago"; /* Использует шрифт Soledago */
+  height: 100vh; /* Высота 100% высоты экрана */
+  display: flex; /* Flexbox для выравнивания */
+  flex-direction: column; /* Расположение по вертикали */
+  justify-content: center; /* Центрирование по вертикали */
+  align-items: center; /* Центрирование по горизонтали */
+  text-align: center; /* Выравнивание текста по центру */
+  background-image: url(https://assets.onecompiler.app/42ss6b9ew/42su26dg9/finaly.png); /* Фоновое изображение */
+  background-size: contain; /* Изображение масштабируется внутри контейнера */
+  background-repeat: no-repeat; /* Изображение не повторяется */
+  background-position: center; /* Изображение располагается в центре */
+  background-color: #F7FCFF; /* Фоновый цвет беловатый */
+}
+
+h2 {
+  font-size: 20px; /* Размер шрифта для заголовков h2 */
+  transform: translateY(260px); /* Сдвигает элемент по вертикали на 260px */
+  text-align: center; /* Центрирует текст */
+}
+
+p {
+  font-family: "Soledago"; /* Шрифт Soledago для текста параграфа */
+  display: flex; /* Flexbox для выравнивания */
+  flex-direction: column; /* Расположение элементов по вертикали */
+  justify-content: center; /* Центрирование по вертикали */
+  align-items: center; /* Центрирование по горизонтали */
+  text-align: center; /* Центрирование текста */
+  position: fixed; /* Фиксированное положение на экране */
+  font-size: 7px; /* Размер текста */
+  top: 97vh; /* Располагает элемент в нижней части экрана */
+  padding: 10px; /* Отступы вокруг текста */
+  background: #ffffff5d; /* Полупрозрачный белый фон */
+  border: 1px solid #333; /* Рамка вокруг элемента */
+}
+
+@font-face {
+  font-family: "Soledago"; /* Определяет шрифт Soledago */
+  src: url("/Fontes/Soledago.ttf") format("truetype"); /* Путь к файлу шрифта */
+  font-style: normal; /* Обычный стиль шрифта */
+  font-weight: normal; /* Обычный вес шрифта */
+}
+
+@font-face {
+  font-family: "Lozung"; /* Определяет шрифт Lozung */
+  src: url("/Fontes/Gorod.otf") format("truetype"); /* Путь к файлу шрифта */
+font-style: normal; /* Обычный стиль шрифта */
+    font-weight: normal; /* Обычный вес шрифта */
+}
+
+@font-face {
+    font-family: "Gorod"; /* Определяет шрифт Gorod */
+    src: url("d:\Fontes\Gorod.otf") format("truetype"); /* Путь к файлу шрифта */
+    font-style: normal; /* Обычный стиль шрифта */
+    font-weight: normal; /* Обычный вес шрифта */
+}
+
+/* Общие стили для всех кнопок */
+button {
+    font-size: 16px; /* Размер шрифта */
+    border: none; /* Убирает рамку у кнопок */
+    cursor: pointer; /* Меняет курсор на указатель при наведении */
+    background-color: #ffffff34; /* Полупрозрачный белый фон */
+    margin: 10px; /* Отступы вокруг кнопки */
+    border-radius: 8px; /* Закругленные углы */
+    font-family: "Soledago"; /* Шрифт Soledago для текста */
+    width: 120px; /* Одинаковая ширина кнопок */
+    height: 60px; /* Одинаковая высота кнопок */
+    display: flex; /* Flexbox для выравнивания текста */
+    justify-content: center; /* Центрирование текста по горизонтали */
+    align-items: center; /* Центрирование текста по вертикали */
+    position: fixed; /* Фиксированное положение на экране */
+    box-shadow: 5px 5px 5px #00000034;
+}
+
+/* Стили для каждой кнопки с их расположением */
+.red {
+    left: 5%; /* Положение кнопки от левого края */
+    top: 10px; /* Отступ сверху */
+    transition: 1s;
+}
+
+.red:hover {
+  left: 5%; /* Положение кнопки от левого края */
+  top: 10px; /* Отступ сверху */
+  transform: scale(1.2);
+}
+
+.red:active {
+  transition: 0.3s;
+  box-shadow: 0 2px 0 #0000005b;
+  transform: translateY(3px);
+}
+
+.purple {
+    left: 20%; /* Положение кнопки от левого края */
+    top: 10px; /* Отступ сверху */
+    transition: 1s
+}
+
+.purple:hover {
+  left: 20%; /* Положение кнопки от левого края */
+  top: 10px; /* Отступ сверху */
+  transform: scale(1.4);
+}
+
+.purple:active {
+  transition: 0.3s;
+  box-shadow: 0 2px 0 #0000005b;
+  transform: translateY(3px);
+}
+.blue {
+    left: 35%; /* Положение кнопки от левого края */
+    top: 10px; /* Отступ сверху */
+    transition: 1s
+}
+
+.blue:hover {
+  left: 35%; /* Положение кнопки от левого края */
+  top: 10px; /* Отступ сверху */
+  transform: scale(1.4);
+}
+
+.blue:active {
+  transition: 0.3s;
+  box-shadow: 0 2px 0 #0000005b;
+  transform: translateY(3px);
+}
+
+.green {
+    left: 50%; /* Положение кнопки от левого края */
+    top: 10px; /* Отступ сверху */
+    transition: 1s
+}
+
+.green:hover {
+  left: 50%; /* Положение кнопки от левого края */
+  top: 10px; /* Отступ сверху */
+  transform: scale(1.4);
+}
+
+
+.green:active {
+  transition: 0.3s;
+  box-shadow: 0 2px 0 #0000005b;
+  transform: translateY(3px);
+}
+
+
+.black {
+    left: 65%; /* Положение кнопки от левого края */
+    top: 10px; /* Отступ сверху */
+    transition: 1s
+}
+
+.black:hover {
+  left: 65%; /* Положение кнопки от левого края */
+  top: 10px; /* Отступ сверху */
+  transform: scale(1.4);
+}
+
+.black:active {
+  transition: 0.3s;
+  box-shadow: 0 2px 0 #0000005b;
+  transform: translateY(3px);
+}
+
+.HeColor {
+    left: 80%; /* Положение кнопки от левого края */
+    top: 10px; /* Отступ сверху */
+    transition: 1s
+}
+
+.HeColor:hover {
+  left: 80%; /* Положение кнопки от левого края */
+  top: 10px; /* Отступ сверху */
+  transform: scale(1.4);
+}
+
+
+.HeColor:active {
+  transition: 0.3s;
+  box-shadow: 0 2px 0 #0000005b;
+  transform: translateY(3px);
+}
+
+/* Контейнер для кнопок */
+.button-container {
+    display: flex; /* Flexbox для выравнивания кнопок */
+    justify-content: center; /* Центрирование кнопок по горизонтали */
+    gap: 20px; /* Расстояние между кнопками */
+    position: fixed; /* Фиксированное положение на экране */
+    top: 10px; /* Отступ сверху */
+    width: 100%; /* Контейнер занимает всю ширину экрана */
+    z-index: 1000; /* Кнопки находятся выше остальных элементов */
+}
+
+button {
+    font-size: 16px; /* Размер шрифта */
+    border: none; /* Убирает рамку у кнопок */
+    cursor: pointer; /* Меняет курсор на указатель при наведении */
+    background-color: #ffffff50; /* Полупрозрачный белый фон */
+    border-radius: 8px; /* Закругленные углы */
+    font-family: "Soledago"; /* Шрифт Soledago для текста */
+    width: 120px; /* Одинаковая ширина кнопок */
+    height: 60px; /* Одинаковая высота кнопок */
+    display: flex; /* Flexbox для выравнивания текста */
+    justify-content: center; /* Центрирование текста по горизонтали */
+    align-items: center; /* Центрирование текста по вертикали */
+}
+
+/* Индивидуальные стили для каждой кнопки */
+.red {
+    background-color: #6a150b4d; /* Полупрозрачный красный фон */
+    color: #F7FCFF; /* Белый цвет текста */
+}
+
+.purple {
+    background-color: #44147c3d; /* Полупрозрачный фиолетовый фон */
+    color: #000000; /* Черный цвет текста */
+}
+
+.blue {
+    background-color: #1a2d5549; /* Полупрозрачный синий фон */
+    color: #C4E9EC; /* Голубоватый цвет текста */
+}
+
+.green {
+    background-color: #2733164b; /* Полупрозрачный зеленый фон */
+    color: #F3D0B3; /* Бежевый цвет текста */
+}
+
+.black {
+    background-color: #1112124f; /* Полупрозрачный черный фон */
+    color: #FF885B; /* Оранжевый цвет текста */
+}
+
+/* Стиль для квадрата */
+.square {
+    position: fixed; /* Фиксированное положение */
+    top: 11px; /* Отступ сверху */
+    left: 50%; /* Центрирование по горизонтали относительно экрана */
+    transform: translateX(-60%); /* Смещение квадрата для точного центрирования */
+    border-radius: 12px; /* Закругленные углы */
+    width: 700px; /* Ширина квадрата */
+    height: 79px; /* Высота квадрата */
+    background-color: #dddddd5e; /* Полупрозрачный серый фон */
+    z-index: 0; /* Квадрат будет под кнопками, так как его z-index меньше */
+}
+
+html {
+  scroll-behavior: smooth; /* Плавный скролл по странице */
+}
+
+.butt {
+    flex-grow: 1; /* Кнопка занимает всю доступную ширину */
+}
